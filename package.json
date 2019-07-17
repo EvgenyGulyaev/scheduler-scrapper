@@ -1,0 +1,29 @@
+{
+  "name": "scheduler-scrapper",
+  "version": "0.0.0",
+  "description": "Данный пакет, будет полезен, тем кто планирует копировать данные с сайта ictis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgenyGulyaev/scheduler-scrapper.git"
+  },
+  "keywords": [
+    "schedule",
+    "ita",
+    "rasp"
+  ],
+  "author": "Evgeny Gulyaev (wardercompany@gmail.com)",
+  "readmeFilename": "README.md",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgenyGulyaev/scheduler-scrapper/issues"
+  },
+  "homepage": "https://github.com/EvgenyGulyaev/scheduler-scrapper#readme",
+  "dependencies": {
+    "scheduler-ita-pretty-message": "0.0.3"
+  }
+}
