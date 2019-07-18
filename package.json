@@ -1,6 +1,6 @@
 {
   "name": "scheduler-scrapper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Данный пакет, будет полезен, тем кто планирует копировать данные с сайта ictis",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/EvgenyGulyaev/scheduler-scrapper#readme",
   "dependencies": {
-    "scheduler-ita-pretty-message": "0.0.3"
+    "cron": "^1.7.1",
+    "scheduler-ita-pretty-message": "0.0.4"
   }
 }
